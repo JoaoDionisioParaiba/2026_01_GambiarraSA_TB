@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+float subtrair(float a, float b) {
+    return a - b;
+}
+
+int main() {
+    float num1, num2, resultado;
+
+    printf("=== Calculadora de Subtracao ===\n");
+
+    printf("Digite o primeiro valor: ");
+    scanf("%f", &num1);
+
+    printf("Digite o segundo valor: ");
+    scanf("%f", &num2);
+
+    resultado = subtrair(num1, num2);
+
+    printf("Resultado da subtracao: %.2f\n", resultado);
+
+    return 0;
+}
