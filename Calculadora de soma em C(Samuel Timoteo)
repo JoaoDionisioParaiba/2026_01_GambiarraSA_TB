@@ -1,1 +1,16 @@
-
+#include <stdio.h>
+#include <unistd.h>
+int main() {
+float a, b, resultado;
+printf("Bem vindo a calculadora de soma\n");
+sleep (3);
+printf("Adicione o primeiro numero da soma:  ");
+scanf("%f", &a);
+sleep(1);
+printf("Adicione o segundo numero da soma:  ");
+scanf("%f", &b);
+sleep(3);
+resultado = a + b;
+printf("O resultado dessa soma é: %.2f\n", resultado);
+    return 0;
+}
