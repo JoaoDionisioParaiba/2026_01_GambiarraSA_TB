@@ -1,0 +1,12 @@
+#include <stdhi.o>
+  int main () {
+  float a, b, resultado;
+  printf(" digite o primeiro numero da divisao:");
+  scanf("%f", &a);
+  printf(" digite segundo numero da divisao:");
+  scanf("%f", &b);
+  resultado = a / b;
+  printf(" o resultado da divisao e: %f\n", resultado);
+  
+  return 0;
+}
