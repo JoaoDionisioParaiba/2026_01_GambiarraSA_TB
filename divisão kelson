@@ -1,4 +1,4 @@
-#include <stdhi.o>
+#include <stdio.h>
   int main () {
   float a, b, resultado;
   printf(" digite o primeiro numero da divisao:");
